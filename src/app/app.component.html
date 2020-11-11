@@ -11,10 +11,10 @@
       <nav class="navbar-sidebar">
         <ul class="list-unstyled navbar-list">
           <li>
-            <a href="#">Over-The-Counter</a>
+            <a routerLink="/category/1" routerLinkActive="active-link">OTC</a>
           </li>
           <li>
-            <a href="#">Prescription</a>
+            <a routerLink="/category/2" routerLinkActive="active-link">Mom & Baby</a>
           </li>
           <li>
             <a href="#">Beauty</a>
@@ -55,7 +55,7 @@
 
 
     <!-- MAIN CONTENT-->
-    <app-product-list></app-product-list>
+    <router-outlet></router-outlet>
 
   </div>
 </div>
